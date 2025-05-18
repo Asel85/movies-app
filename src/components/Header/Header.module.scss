@@ -1,0 +1,47 @@
+@import"../../styles/variables";
+
+.header_block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+
+  .header_logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+      .header_img{
+    width: 200px;
+    height: auto;
+}
+.header_nav{
+
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    a{
+    color: $color;
+    &:hover {
+        color: #e50914;
+      }
+
+    }
+}
+
+  }
+
+  input{
+    padding: 7px 10px;
+    border-radius: 5px;
+    color: black;
+    font-size: 12px;
+    line-height: 1.5;
+    width: 200px;
+  }
+
+}

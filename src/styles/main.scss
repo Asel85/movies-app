@@ -4,4 +4,12 @@
 body{
     background-color: $bg-color;
     font-family: $font-family;
+    color: $color;
+}
+.container{
+  width: calc(100vw - 100px);
+  height: 100%;
+  margin: 0px auto;
+  border-radius: 10px;
+  max-width: 1400px;
 }
